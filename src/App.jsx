@@ -1,6 +1,6 @@
 import Ecosystem from "./components/Ecosystem"
 import Hero from "./components/Hero"
-import Navbar from "./components/NavbaR.JSX"
+import Navbar from "./components/Navbar.jsx"
 import NftMarket from "./components/NftMarket"
 import Wallet from "./components/Wallet"
 
