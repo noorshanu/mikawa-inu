@@ -2,6 +2,7 @@ import Ecosystem from "./components/Ecosystem"
 import Hero from "./components/Hero"
 import Navbar from "./components/NavbaR.JSX"
 import NftMarket from "./components/NftMarket"
+import Wallet from "./components/Wallet"
 
 
 function App() {
@@ -26,6 +27,10 @@ function App() {
 </div>
 <div className=" py-8">
   <NftMarket/>
+</div>
+<div className="py-8">
+  <Wallet/>
+
 </div>
     </>
   )
