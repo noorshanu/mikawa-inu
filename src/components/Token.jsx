@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import {AiTwotoneCopy} from 'react-icons/ai'
 
 function Token() {
   const textToCopy = '0xc9dbcff0448d330aaf1dd78fc204370e5e54a797';
@@ -21,9 +22,13 @@ function Token() {
         readOnly
         ref={textArea}
         
-        className='text-white'
+        className='text-white bg-transparent border border-gray-800 rounded-md py-1 w-[500px] px-4 text-lg'
       />
-      <button onClick={copyToClipboard}>Copy</button>
+      <button onClick={copyToClipboard} className=' bg-transparent border border-gray-800 rounded-md py-1 px-3 btn-bg'><AiTwotoneCopy/></button>
+      </div>
+      <div className='flex justify-center gap-5'>
+        <a href="/"> Audit By </a>
+        <a href="/"> Audit By </a>
       </div>
     </div>
   </section>
@@ -31,3 +36,4 @@ function Token() {
 }
 
 export default Token
+
