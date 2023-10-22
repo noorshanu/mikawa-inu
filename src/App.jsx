@@ -3,6 +3,7 @@ import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 
 import NftMarket from "./components/NftMarket"
+import Token from "./components/Token"
 import Wallet from "./components/Wallet"
 
 
@@ -31,6 +32,10 @@ function App() {
 </div>
 <div className="py-8">
   <Wallet/>
+
+</div>
+<div className=" py-8">
+  <Token/> 
 
 </div>
     </>
