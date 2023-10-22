@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 
-.font-mono{
+.font-monot{
   font-family: 'Montserrat', sans-serif;
 }
 .lh-1 {
@@ -55,4 +55,5 @@
 body{
   background: linear-gradient(154deg, #07001E 16.42%, #07001E 217.47%);
 color: #fff;
+font-family: 'Montserrat', sans-serif;
 }

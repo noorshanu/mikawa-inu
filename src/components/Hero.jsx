@@ -6,7 +6,7 @@ function Hero() {
       <div className="container-wrapper">
         <div className="flex justify-between">
           <div>
-            <h1 className="font-mono text-7xl font-bold">
+            <h1 className="font-monot text-7xl font-bold">
               Digital Economy <br />
               <span className=" text-purple-600">The Power</span> Of Technology
             </h1>
