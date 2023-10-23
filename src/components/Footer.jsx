@@ -12,8 +12,8 @@ function Footer() {
       <img src="images/footer.png" alt="" />
       <div className=' absolute top-[15%] w-[1000px] left-[14%]'>
         <div className='container-wrapper'>
-        <div className='flex justify-around'>
-          <div className=' flex flex-col'>
+        <div className='flex justify-around flex-col sm:flex-row'>
+          <div className=' flex flex-col '>
             <a href="/" className=' text-xl font-medium lh-1_9 mb-4'>Whitepaper</a>
             <a href="/" className=' text-xl font-medium lh-1_9 mb-4'>About us</a>
             <a href="/" className=' text-xl font-medium lh-1_9'>Contact us</a>

@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section className=" pt-8">
       <div className="container-wrapper">
-        <div className="flex justify-between">
+        <div className="flex flex-col sm:flex-row justify-between">
           <div>
             <h1 className="font-monot text-7xl font-bold">
               Digital Economy <br />
