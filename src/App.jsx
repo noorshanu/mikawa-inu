@@ -23,7 +23,7 @@ function App() {
 <div className="line-hero  py-4">
 <div className=" flex text-center justify-center gap-5 flex-col sm:flex-row">
   <h1 className=" font-medium text-base sm:text-3xl font-monot">Mikawa Inu Ecosystem</h1>
-  <img src="images/star.png" alt="" className=" h-[20px] sm:h-auto w-[20px] sm:w-auto mx-auto" />
+  <img src="images/star.png" alt="" className=" h-[20px] sm:h-auto w-[20px] sm:w-auto " />
   <h1 className=" font-medium text-base sm:text-3xl font-monot">Mikawa Inu Ecosystem</h1>
 </div>
 </div>
