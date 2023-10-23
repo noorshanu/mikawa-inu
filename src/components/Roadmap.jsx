@@ -2,12 +2,9 @@ import React from 'react'
 import './Roadmap.css'
 function Roadmap() {
   return (
-    <div className="box">
+    <div className="box container-wrapper">
     <div className="group">
-      <div className="frame">
-        <div className="text-wrapper">Road Map</div>
-        <p className="div">Mikawa Inu starts when you are one step ahead</p>
-      </div>
+   
       <div className="overlap">
         <div className="group-2">
           <div className="overlap-group-wrapper">

@@ -3,6 +3,7 @@ import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 
 import NftMarket from "./components/NftMarket"
+import Partners from "./components/Partners"
 import Roadmap from "./components/Roadmap"
 import Token from "./components/Token"
 import Wallet from "./components/Wallet"
@@ -40,7 +41,10 @@ function App() {
 
 </div>
 <div>
-  <Roadmap/>
+  {/* <Roadmap/> */}
+</div>
+<div className=" py-8">
+  <Partners/>
 </div>
     </>
   )
