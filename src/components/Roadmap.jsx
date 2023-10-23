@@ -3,7 +3,7 @@ import React from 'react'
 function Roadmap() {
   return (
    <section className=' py-5'>
-    <div className='relative'>
+    <div className='relative hidden sm:block'>
       
         <div className=' absolute -top-[5%] left-[15.4%]'> 
           <img src="images/phase1.png" alt="" />
@@ -22,6 +22,10 @@ function Roadmap() {
           <img src="images/phase4.png" alt="" />
         </div>
        
+    </div>
+    <div className='container-wrapper sm:hidden block'>
+      
+
     </div>
    </section>
   )
