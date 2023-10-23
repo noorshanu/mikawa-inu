@@ -62,3 +62,14 @@ font-family: 'Montserrat', sans-serif;
   
 background: linear-gradient(96deg, #E04E7F 0%, #8A2F98 92.44%);
 }
+
+.btn-hero{
+  border: 1px solid #E04E7F;
+  border-radius: 15px;
+  padding:  10px 20px;
+}
+
+.btn-hero:hover{
+
+  background: linear-gradient(96deg, #E04E7F 0%, #8A2F98 92.44%);
+}

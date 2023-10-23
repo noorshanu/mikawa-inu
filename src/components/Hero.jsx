@@ -16,8 +16,8 @@ function Hero() {
               To Analyze Wealth Management Opportunities.
             </p>
             <div className=" flex gap-6"> 
-              <a href="/">Buy Now</a>
-              <a href="/">Chart</a>
+              <a href="/" className="btn-hero">Buy Now</a>
+              <a href="/" className="btn-hero">Chart</a>
             </div>
           </div>
           <div className=" text-end mx-auto">
