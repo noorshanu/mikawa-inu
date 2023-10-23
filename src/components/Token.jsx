@@ -22,7 +22,7 @@ function Token() {
         readOnly
         ref={textArea}
         
-        className='text-white bg-transparent border border-gray-800 rounded-md py-1 w-[500px] px-4 text-xs mx-auto  sm:text-lg'
+        className='text-white bg-transparent border border-gray-800 rounded-md py-1 w-[500px] px-4 text-xs mx-auto sm:mx-0  sm:text-lg'
       />
       <button onClick={copyToClipboard} className=' bg-transparent border border-gray-800 rounded-md py-1 px-3 btn-bg'><AiTwotoneCopy/></button>
       </div>
