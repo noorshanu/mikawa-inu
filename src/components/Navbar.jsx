@@ -36,14 +36,14 @@ function Navbar() {
 
         {/* Mobile Menu */}
         <div className={`lg:hidden ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
-          <ul className="nav-bg py-2 px-4 space-y-2 absolute mob-nav">
+          <ul className="nav-bg py-2 px-4 space-y-2 absolute right-[8%] top-[90%] bg-purple-600 mob-nav">
             <li>
               <a href="/" className="text-white  uppercase  font-medium hover:text-pink-500">
                 Home
               </a>
             </li>
             <li>
-              <a href="https://noodlefi.gitbook.io/docs/" target="_blank" className="text-black  uppercase  font-medium hover:text-pink-500">
+              <a href="https://noodlefi.gitbook.io/docs/" target="_blank" className="text-white  uppercase  font-medium hover:text-pink-500">
               whitepaper
               </a>
             </li>
