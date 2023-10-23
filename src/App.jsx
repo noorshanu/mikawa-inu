@@ -52,7 +52,7 @@ function App() {
 <Joinus/>
 </div>
 <div className=" py-8">
-<Footer/>
+{/* <Footer/> */}
 
 </div>
     </>

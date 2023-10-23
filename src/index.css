@@ -43,7 +43,7 @@
 
 
   .container-wrapper {
-    @apply max-w-[1224px] w-[100%] mx-auto;
+    @apply max-w-[1224px] w-[90%] mx-auto;
   }
 }
 
@@ -72,4 +72,9 @@ background: linear-gradient(96deg, #E04E7F 0%, #8A2F98 92.44%);
 .btn-hero:hover{
 
   background: linear-gradient(96deg, #E04E7F 0%, #8A2F98 92.44%);
+}
+
+@media (max-width:768px) {
+  
+  
 }
