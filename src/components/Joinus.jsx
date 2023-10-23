@@ -8,9 +8,9 @@ function Joinus() {
   <div className=' relative'>
     <img src="images/foot-up.png" alt="" />
     
-<div className='conted absolute top-0 left-[3%]'>
+<div className='conted absolute top-0 left-[14%]'>
   <div className=' text-center'>
-    <h1 className=' text-[65px] font-semibold'>Join Us To Make The World A
+    <h1 className=' text-[65px] font-semibold'>Join Us To Make The World <br /> A
 Better Place</h1>
 <p className='lh-1_6 text-xl'>
 We are willing to listen to the community's opinions, for the purpose <br /> of 
