@@ -11,7 +11,7 @@ function Footer() {
     <div className=' relative'>
       <img src="images/footer.png" alt="" className=' hidden sm:block' />
       <img src="images/mob-foot.png" alt="" className='block sm:hidden' />
-      <div className=' absolute top-[15%] w-[1000px] left-[14%]'>
+      <div className=' absolute top-[17%] sm:top-[15%] w-auto sm:w-[1000px] left-[7%] sm:left-[14%]'>
         <div className='container-wrapper'>
         <div className='flex justify-around flex-col sm:flex-row'>
           <div className=' flex flex-col '>
@@ -34,7 +34,7 @@ function Footer() {
 
        
         </div>
-        <div className=' flex justify-around mt-[8rem] items-center'>
+        <div className=' flex justify-around mt-4 sm:mt-[8rem] items-center flex-col sm:flex-row'>
           <p className=' text-base font-medium'>All Rights Reserved 2022</p>
           <img src="images/audit.png" alt="" />
 
