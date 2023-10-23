@@ -3,7 +3,7 @@ import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Joinus from "./components/Joinus"
 import Navbar from "./components/Navbar"
-
+import Marquee from "react-fast-marquee";
 import NftMarket from "./components/NftMarket"
 import Partners from "./components/Partners"
 import Roadmap from "./components/Roadmap"
@@ -21,11 +21,18 @@ function App() {
   <Hero/>
 </div>
 <div className="line-hero  py-4">
-<div className=" flex text-center justify-center gap-5 flex-col sm:flex-row">
+<Marquee>
+<div className=" flex text-center justify-center gap-5 flex-col sm:flex-row ml-5">
   <h1 className=" font-medium text-base sm:text-3xl font-monot">Mikawa Inu Ecosystem</h1>
   <img src="images/star.png" alt="" className=" h-[20px] sm:h-auto w-[20px] sm:w-auto  mx-auto sm:mx-0" />
   <h1 className=" font-medium text-base sm:text-3xl font-monot">Mikawa Inu Ecosystem</h1>
 </div>
+<div className=" flex text-center justify-center gap-5 flex-col sm:flex-row">
+  <h1 className=" font-medium text-base sm:text-3xl font-monot"> Mikawa Inu Ecosystem </h1>
+  <img src="images/star.png" alt="" className=" h-[20px] sm:h-auto w-[20px] sm:w-auto  mx-auto sm:mx-0" />
+  <h1 className=" font-medium text-base sm:text-3xl font-monot">Mikawa Inu Ecosystem </h1>
+</div>
+</Marquee>
 </div>
 <div className=" py-4">
   <Ecosystem/>
