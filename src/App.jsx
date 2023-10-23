@@ -1,4 +1,5 @@
 import Ecosystem from "./components/Ecosystem"
+import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Joinus from "./components/Joinus"
 import Navbar from "./components/Navbar"
@@ -49,6 +50,10 @@ function App() {
 </div>
 <div className=" py-8">
 <Joinus/>
+</div>
+<div className=" py-8">
+<Footer/>
+
 </div>
     </>
   )
