@@ -4,7 +4,7 @@ function Ecosystem() {
   return (
     <section className="pt-10">
       <div className="container-wrapper">
-        <div className=" flex justify-between items-center">
+        <div className=" flex justify-between ">
           <div>
             <span className="bg-white px-4 py-2 text-black rounded-lg text-lg font-medium font-monot ">
               Features
@@ -15,7 +15,7 @@ function Ecosystem() {
             </div>
           </div>
           <div>
-            <img src="images/eco-1.png" alt="" />
+            <img src="images/eco-1.png" alt="" className=" mt-[4rem]" />
           </div>
         </div>
       </div>
