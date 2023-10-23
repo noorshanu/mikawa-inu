@@ -14,6 +14,13 @@ function Roadmap() {
       <div>
         <img src="images/roadmap.png" alt="" />
       </div>
+
+      <div className=' absolute top-[52%] left-[32.4%]'> 
+          <img src="images/phase2.png" alt="" />
+        </div>
+        <div  className=' absolute top-[52%] left-[68%]'>
+          <img src="images/phase4.png" alt="" />
+        </div>
        
     </div>
    </section>
