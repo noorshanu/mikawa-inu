@@ -55,8 +55,8 @@ function App() {
   <Token/> 
 
 </div>
-<div>
-  {/* <Roadmap/> */}
+<div className="py-8">
+  <Roadmap/>
 </div>
 <div className=" py-8">
   <Partners/>
