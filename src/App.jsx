@@ -1,5 +1,6 @@
 import Ecosystem from "./components/Ecosystem"
 import Hero from "./components/Hero"
+import Joinus from "./components/Joinus"
 import Navbar from "./components/Navbar"
 
 import NftMarket from "./components/NftMarket"
@@ -45,6 +46,9 @@ function App() {
 </div>
 <div className=" py-8">
   <Partners/>
+</div>
+<div className=" py-8">
+<Joinus/>
 </div>
     </>
   )
