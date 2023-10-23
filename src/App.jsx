@@ -27,7 +27,13 @@ function App() {
   <img src="images/star.png" alt="" className=" h-[20px] sm:h-auto w-[20px] sm:w-auto  mx-auto sm:mx-0" />
   <h1 className=" font-medium text-base sm:text-3xl font-monot">Mikawa Inu Ecosystem</h1>
 </div>
-<div className=" flex text-center justify-center gap-5 ">
+<div className=" flex text-center justify-center gap-5 ml-5 ">
+  <h1 className=" font-medium text-base sm:text-3xl font-monot"> Mikawa Inu Ecosystem </h1>
+  <img src="images/star.png" alt="" className=" h-[20px] sm:h-auto w-[20px] sm:w-auto  mx-auto sm:mx-0" />
+  <h1 className=" font-medium text-base sm:text-3xl font-monot">Mikawa Inu Ecosystem </h1>
+</div>
+
+<div className=" flex text-center justify-center gap-5 ml-5 ">
   <h1 className=" font-medium text-base sm:text-3xl font-monot"> Mikawa Inu Ecosystem </h1>
   <img src="images/star.png" alt="" className=" h-[20px] sm:h-auto w-[20px] sm:w-auto  mx-auto sm:mx-0" />
   <h1 className=" font-medium text-base sm:text-3xl font-monot">Mikawa Inu Ecosystem </h1>
@@ -59,7 +65,7 @@ function App() {
 <Joinus/>
 </div>
 <div className=" py-8">
-{/* <Footer/> */}
+<Footer/>
 
 </div>
     </>

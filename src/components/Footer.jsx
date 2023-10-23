@@ -6,10 +6,11 @@ function Footer() {
     <div className='container-wrapper'>
       <div className=' flex relative'>
     <div className=' absolute'>
-      <img src="images/foot-logo.png" alt="" className='h-[130px]' />
+      <img src="images/foot-logo.png" alt="" className='h-[130px] hidden sm:block' />
     </div>
     <div className=' relative'>
-      <img src="images/footer.png" alt="" />
+      <img src="images/footer.png" alt="" className=' hidden sm:block' />
+      <img src="images/mob-foot.png" alt="" className='block sm:hidden' />
       <div className=' absolute top-[15%] w-[1000px] left-[14%]'>
         <div className='container-wrapper'>
         <div className='flex justify-around flex-col sm:flex-row'>
