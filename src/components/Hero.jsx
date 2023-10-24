@@ -4,8 +4,10 @@ function Hero() {
   return (
     <section className=" pt-8">
       <div className="container-wrapper">
-        <div className="flex flex-col sm:flex-row justify-between">
-          <div>
+        <div className="flex flex-col sm:flex-row justify-between gap-5">
+          <div data-aos="fade-left"
+     data-aos-offset="300" data-aos-duration="2000" 
+     data-aos-easing="ease-in-sine">
             <h1 className="font-monot text-3xl sm:text-7xl font-bold">
               Digital Economy <br />
               <span className=" text-purple-600">The Power</span> Of Technology
@@ -20,8 +22,12 @@ function Hero() {
               <a href="/" className="btn-hero px-7">Chart</a>
             </div>
           </div>
-          <div className=" text-end mx-auto">
-            <img src="images/hero-img.png" alt="" className="" />
+          <div className=" text-end mx-auto relative" data-aos="fade-right"
+     data-aos-offset="300" data-aos-duration="2000" 
+     data-aos-easing="ease-in-sine">
+            <img src="images/hero-coin2.png" alt="" className=" absolute right-[50%] floating"/>
+            <img src="images/hero-img2.png" alt="" className="" />
+            <img src="images/hero-coin.png" alt="" className="anime2 absolute top-[30%] -left-[10%]" />
           </div>
         </div>
       </div>
