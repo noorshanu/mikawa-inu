@@ -5,7 +5,9 @@ function Wallet() {
     <section className=" mt-5 sm:mt-20">
       <div className="container-wrapper relative">
         <div className=" flex justify-between items-center">
-          <div>
+          <div data-aos="fade-left"
+     data-aos-offset="300" data-aos-duration="2000" 
+     data-aos-easing="ease-in-sine">
             <span className="bg-white px-4 py-2 text-black rounded-lg text-xs sm:text-lg font-medium font-monot ">
               Features
             </span>
@@ -21,7 +23,9 @@ function Wallet() {
           <div></div>
         </div>
         <div className=" absolute sm:-top-2 top-20 ">
-            <img src="images/wallet.png" alt="" />
+            <img src="images/wallet.png" alt=""  data-aos="fade-right"
+     data-aos-offset="300" data-aos-duration="2000" 
+     data-aos-easing="ease-in-sine"/>
         </div>
       </div>
     </section>

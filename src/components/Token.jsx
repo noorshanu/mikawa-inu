@@ -13,8 +13,12 @@ function Token() {
   return (
   <section className=' mt-[300px] sm:mt-[800px]'>
     <div className='container-wrapper'>
-      <div> <h1 className='text-[#E476B2] text-2xl sm:text-6xl font-semibold text-center'>Tokenomic</h1></div>
-      <img src="images/token.png" alt="" />
+      <div data-aos="fade-down"
+     data-aos-offset="300" data-aos-duration="2000" 
+     data-aos-easing="ease-in-sine"> <h1 className='text-[#E476B2] text-2xl sm:text-6xl font-semibold text-center'>Tokenomic</h1></div>
+      <img src="images/token.png" alt=""  data-aos="fade-up"
+     data-aos-offset="300" data-aos-duration="2000" 
+     data-aos-easing="ease-in-sine"/>
       <div className='flex justify-center gap-5'>
       <input
         type="text"

@@ -6,7 +6,7 @@ function Footer() {
     <div className='container-wrapper'>
       <div className=' flex relative'>
     <div className=' absolute'>
-      <img src="images/foot-logo.png" alt="" className='h-[130px] hidden sm:block' />
+      <img src="images/foot-logo.png" alt="" className='h-[130px] hidden sm:block anime2' />
     </div>
     <div className=' relative'>
       <img src="images/footer.png" alt="" className=' hidden sm:block' />

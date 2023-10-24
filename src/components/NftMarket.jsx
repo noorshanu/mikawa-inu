@@ -6,7 +6,9 @@ function NftMarket() {
       <div className="container-wrapper">
         <div>
           <div className=" flex justify-between items-center">
-            <div>
+            <div data-aos="fade-left"
+     data-aos-offset="300" data-aos-duration="2000" 
+     data-aos-easing="ease-in-sine">
               <span className="bg-white px-4 py-2 text-black rounded-lg text-xs sm:text-lg font-medium font-monot ">
                 Features
               </span>
@@ -22,7 +24,9 @@ function NftMarket() {
         
             </div>
           </div>
-          <img src="images/nft.png" alt="" className=" -mt-10 sm:-mt-28"/>
+          <img src="images/nft.png" alt="" className=" -mt-10 sm:-mt-28" data-aos="fade-right"
+     data-aos-offset="300" data-aos-duration="2000" 
+     data-aos-easing="ease-in-sine"/>
         </div>
       </div>
     </section>
