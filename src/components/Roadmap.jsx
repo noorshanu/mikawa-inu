@@ -1,4 +1,10 @@
 import React from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import { Autoplay } from 'swiper/modules';
 
 function Roadmap() {
   return (
@@ -24,8 +30,27 @@ function Roadmap() {
        
     </div>
     <div className='container-wrapper sm:hidden block'>
+      <>
+       <Swiper
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        modules={[Autoplay]}
+       >
+        <SwiperSlide>
+        <img src="images/phase1.png" alt="" />
+        </SwiperSlide>
+        <SwiperSlide><img src="images/mob-phase2.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="images/phase3.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="images/mob-phase4.png" alt="" /></SwiperSlide>
       
-
+      </Swiper>
+      
+      </>
+   
+ <img src="images/mob-road.png" alt="" />
     </div>
    </section>
   )
