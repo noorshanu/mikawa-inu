@@ -25,9 +25,9 @@ function Hero() {
           <div className=" text-end mx-auto relative" data-aos="fade-right"
      data-aos-offset="300" data-aos-duration="2000" 
      data-aos-easing="ease-in-sine">
-            <img src="images/hero-coin2.png" alt="" className=" absolute right-[50%] floating"/>
-            <img src="images/hero-img2.png" alt="" className="" />
-            <img src="images/hero-coin.png" alt="" className="anime2 absolute top-[30%] -left-[10%]" />
+            <img src="images/hero-coin2.png" alt="" className=" absolute right-[50%] floating sm:h-auto h-[40px]"/>
+            <img src="images/hero-img2.png" alt="" className=" mx-auto sm:mx-0" />
+            <img src="images/hero-coin.png" alt="" className="anime2 absolute top-[30%] -left-[8%] sm:-left-[10%] sm:h-auto h-[60px]" />
           </div>
         </div>
       </div>

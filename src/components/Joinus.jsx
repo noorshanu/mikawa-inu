@@ -6,7 +6,7 @@ function Joinus() {
     <section>
       <div className="container-wrapper">
         <div className=" relative">
-        <img src="images/join-circle.png" alt=""  className=" absolute -right-[7%] top-[20%] anime2 "/>
+        <img src="images/join-circle.png" alt=""  className=" absolute -right-[15%] sm:-right-[7%] top-[20%] anime2 "/>
           <img src="images/foot-up.png" alt="" className="hidden sm:block" />
           <img
             src="images/mob-foot-up.png"
