@@ -44,22 +44,33 @@ function Navbar() {
             </li>
             <li>
               <a href="https://noodlefi.gitbook.io/docs/" target="_blank" className="text-white  uppercase  font-medium hover:text-pink-500">
-              whitepaper
+             Ecosystem
               </a>
             </li>
             <li>
               <a href="#road" className="text-whiite  uppercase  font-medium hover:text-pink-500">
-               Roadmap
+              NFT Marketplace 
               </a>
             </li>
             <li>
               <a href="#token" className="text-white  uppercase  font-medium hover:text-pink-500">
-              Tokonomics
+              wallet
               </a>
             </li>
-            <li> <a href="https://nofi-dev.vercel.app/" target='_blank' className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink  px-8 py-3 rounded-full   hover:text-black">
-                Launch App
-              </a></li>
+            <li>
+              <a href="#token" className="text-white  uppercase  font-medium hover:text-pink-500">
+            Tokenomic
+              </a>
+            </li>
+            <li>
+              <a href="#token" className="text-white  uppercase  font-medium hover:text-pink-500">
+            Tokenomic
+              </a>
+            </li> <li>
+              <a href="#token" className="text-white  uppercase  font-medium hover:text-pink-500">
+            Roadmap
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -73,25 +84,33 @@ function Navbar() {
             </li>
             <li>
               <a href="https://noodlefi.gitbook.io/docs/" target="_blank" className="text-white  uppercase  font-medium hover:text-pink-500">
-               Whitepaper
+              Ecosystem
               </a>
             </li>
             <li>
               <a href="#road" className="text-white  uppercase  font-medium hover:text-pink-500">
-               Roadmap
+              Ecosystem
               </a>
             </li>
             <li>
               <a href="#token" className="text-white  uppercase  font-medium    hover:text-pink-500">
-                Tokonomics
+              Wallet
+              </a>
+            </li>
+
+            <li>
+              <a href="#token" className="text-white  uppercase  font-medium    hover:text-pink-500">
+              Tokenomic
+              </a>
+            </li>
+
+            <li>
+              <a href="#token" className="text-white  uppercase  font-medium    hover:text-pink-500">
+              Road Map      
               </a>
             </li>
             {/* #c61dba */}
-            <li>
-              <a href="https://nofi-dev.vercel.app/" target='_blank' className="text-white shadow-lg  uppercase font-bold stroke-black  bg-pink px-12 py-3 rounded-full   hover:text-pink-500">
-                Launch App
-              </a>
-            </li>
+          
           </ul>
         </nav>
       </div>
