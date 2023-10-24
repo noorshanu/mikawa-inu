@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FaTelegram } from 'react-icons/fa';
 
 function Navbar() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -76,7 +77,7 @@ function Navbar() {
 
         {/* Desktop Menu */}
         <nav className="hidden lg:block">
-          <ul className="flex space-x-12">
+          <ul className="flex items-center space-x-12">
             <li>
               <a href="/" className="text-white  uppercase font-medium hover:text-pink-500">
                 Home
@@ -107,6 +108,11 @@ function Navbar() {
             <li>
               <a href="#token" className="text-white  uppercase  font-medium    hover:text-pink-500">
               Road Map      
+              </a>
+            </li>
+            <li>
+              <a href="#token" className="text-white  uppercase  font-medium    hover:text-pink-500">
+              <FaTelegram className='text-2xl'/>    
               </a>
             </li>
             {/* #c61dba */}
