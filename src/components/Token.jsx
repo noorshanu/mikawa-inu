@@ -27,8 +27,8 @@ function Token() {
       <button onClick={copyToClipboard} className=' bg-transparent border border-gray-800 rounded-md py-1 px-3 btn-bg'><AiTwotoneCopy/></button>
       </div>
       <div className='flex justify-center  gap-5 mt-7'>
-        <a href="/" className='btn-hero text-center w-[50%] mx-auto sm:mx-0'> <img src="images/audited.png" alt="" className='mx-auto h-[30px]' /> </a>
-        <a href="/" className='btn-hero text-center w-[50%] mx-auto sm:mx-0'> <img src="images/buyon.png" alt="" className='mx-auto h-[35px]' /> </a>
+        <a href="/" className='btn-hero text-center w-[50%] sm:w-auto mx-auto sm:mx-0'> <img src="images/audited.png" alt="" className='mx-auto h-[30px] sm:h-auto sm:mt-2' /> </a>
+        <a href="/" className='btn-hero text-center w-[50%] sm:w-auto mx-auto sm:mx-0'> <img src="images/buyon.png" alt="" className='mx-auto h-[35px] sm:h-auto' /> </a>
       </div>
     </div>
   </section>
