@@ -2,7 +2,9 @@ import React from "react";
 
 function Ecosystem() {
   return (
-    <section className="pt-10">
+    <section className="pt-10 relative" >
+      <img src="images/circle.png" alt="" className=" absolute hidden sm:block left-[10%] opacity-40" />
+
       <div className="container-wrapper">
         <div className=" flex justify-between flex-col sm:flex-row ">
           <div data-aos="fade-up"
