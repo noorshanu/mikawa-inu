@@ -23,7 +23,7 @@ function Hero() {
             </div>
           </div>
           <div className=" text-end mx-auto relative" data-aos="fade-right"
-     data-aos-offset="300" data-aos-duration="2000" 
+     data-aos-duration="2000" 
      data-aos-easing="ease-in-sine">
             <img src="images/hero-coin2.png" alt="" className=" absolute right-[50%] floating sm:h-auto h-[40px]"/>
             <img src="images/hero-img2.png" alt="" className=" mx-auto sm:mx-0" />
