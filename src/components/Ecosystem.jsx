@@ -3,7 +3,7 @@ import React from "react";
 function Ecosystem() {
   return (
     <section className="pt-10 relative sm:mt-20" >
-      <img src="images/circle.png" alt="" className=" absolute hidden sm:block left-[10%] opacity-40" />
+      <img src="images/circle.png" alt="" className=" absolute hidden sm:block left-[10%] " />
 
       <div className="container-wrapper">
         <div className=" flex justify-between flex-col sm:flex-row ">

@@ -4,7 +4,7 @@ import Hero from "./components/Hero"
 import Joinus from "./components/Joinus"
 import Navbar from "./components/Navbar"
 import Marquee from "react-fast-marquee";
-import NftMarket from "./components/NftMarket"
+// import NftMarket from "./components/NftMarket"
 import Partners from "./components/Partners"
 import Roadmap from "./components/Roadmap"
 import Token from "./components/Token"
@@ -44,9 +44,9 @@ function App() {
   <Ecosystem/>
   
 </div>
-<div className=" py-8">
+{/* <div className=" py-8">
   <NftMarket/>
-</div>
+</div> */}
 <div className="py-8">
   <Wallet/>
 
