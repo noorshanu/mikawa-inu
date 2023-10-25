@@ -15,7 +15,7 @@ function Ecosystem() {
             </span>
             <div className="flex gap-4 mt-5">
               <img src="images/strok.png" alt="" className=" sm:h-auto h-[100px]" />
-              <h3 className="text-[#E476B2] text-2xl sm:text-6xl font-semibold lh-1_2">Mikawa <br /> Inu <br /> Ecosystem</h3>
+              <h3 className="text-[#E476B2] text-2xl sm:text-6xl font-semibold lh-1_2 font-monot">Mikawa <br /> Inu <br /> Ecosystem</h3>
             </div>
           </div>
           <div>

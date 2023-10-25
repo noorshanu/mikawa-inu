@@ -39,7 +39,7 @@ function Navbar() {
         <div className={`lg:hidden ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
           <ul className="nav-bg py-2 px-4 space-y-2 absolute right-[8%] top-[90%] bg-purple-600 mob-nav">
             <li>
-              <a href="/" className="text-white  uppercase  font-medium hover:text-pink-500">
+              <a href="/" className="text-white  uppercase  font-medium hover:text-pink-500 font-monot">
                 Home
               </a>
             </li>
@@ -79,39 +79,39 @@ function Navbar() {
         <nav className="hidden lg:block">
           <ul className="flex items-center space-x-12">
             <li>
-              <a href="/" className="text-white  uppercase font-medium hover:text-pink-500">
+              <a href="/" className="text-white  uppercase font-medium hover:text-pink-500 font-monot">
                 Home
               </a>
             </li>
             <li>
-              <a href="https://noodlefi.gitbook.io/docs/" target="_blank" className="text-white  uppercase  font-medium hover:text-pink-500">
+              <a href="https://noodlefi.gitbook.io/docs/" target="_blank" className="text-white  uppercase  font-medium hover:text-pink-500 font-monot">
               Ecosystem
               </a>
             </li>
             <li>
-              <a href="#road" className="text-white  uppercase  font-medium hover:text-pink-500">
+              <a href="#road" className="text-white  uppercase  font-medium hover:text-pink-500 font-monot">
               Ecosystem
               </a>
             </li>
             <li>
-              <a href="#token" className="text-white  uppercase  font-medium    hover:text-pink-500">
+              <a href="#token" className="text-white  uppercase  font-medium    hover:text-pink-500 font-monot">
               Wallet
               </a>
             </li>
 
             <li>
-              <a href="#token" className="text-white  uppercase  font-medium    hover:text-pink-500">
+              <a href="#token" className="text-white  uppercase  font-medium    hover:text-pink-500 font-monot">
               Tokenomic
               </a>
             </li>
 
             <li>
-              <a href="#token" className="text-white  uppercase  font-medium    hover:text-pink-500">
+              <a href="#token" className="text-white  uppercase  font-medium    hover:text-pink-500 font-monot">
               Road Map      
               </a>
             </li>
             <li>
-              <a href="#token" className="text-white  uppercase  font-medium    hover:text-pink-500">
+              <a href="#token" className="text-white  uppercase  font-medium    hover:text-pink-500 font-monot">
               <FaTelegram className='text-2xl'/>    
               </a>
             </li>

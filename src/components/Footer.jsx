@@ -15,27 +15,27 @@ function Footer() {
         <div className='container-wrapper'>
         <div className='flex justify-around flex-col sm:flex-row'>
           <div className=' flex flex-col '>
-            <a href="/" className=' text-xl font-medium lh-1_9 mb-4'>Whitepaper</a>
-            <a href="/" className=' text-xl font-medium lh-1_9 mb-4'>About us</a>
-            <a href="/" className=' text-xl font-medium lh-1_9'>Contact us</a>
+            <a href="/" className=' text-xl font-medium lh-1_9 mb-4 font-monot'>Whitepaper</a>
+            <a href="/" className=' text-xl font-medium lh-1_9 mb-4 font-monot' >About us</a>
+            <a href="/" className=' text-xl font-medium lh-1_9 font-monot'>Contact us</a>
           </div>
 
           <div className=' flex flex-col'>
-          <a href="/" className=' text-xl font-medium lh-1_9 mb-4'>Mikawa Inu EcoSystem</a>
-          <a href="/" className=' text-xl font-medium lh-1_9 mb-4'>Web 3.0 Platform</a>    
-          <a href="/" className=' text-xl font-medium lh-1_9'>NFTs MarketPlace</a>
+          <a href="/" className=' text-xl font-medium lh-1_9 mb-4 font-monot'>Mikawa Inu EcoSystem</a>
+          <a href="/" className=' text-xl font-medium lh-1_9 mb-4 font-monot'>Web 3.0 Platform</a>    
+          <a href="/" className=' text-xl font-medium lh-1_9 font-monot'>NFTs MarketPlace</a>
           </div>
 
           <div className=' flex flex-col'>
-          <a href="/" className=' text-xl font-medium lh-1_9 mb-4'>Mikawa - Chain</a>
-          <a href="/" className=' text-xl font-medium lh-1_9 mb-4'>Tokenomics</a>
-          <a href="/" className=' text-xl font-medium lh-1_9'>Wallet development</a>
+          <a href="/" className=' text-xl font-medium lh-1_9 mb-4 font-monot'>Mikawa - Chain</a>
+          <a href="/" className=' text-xl font-medium lh-1_9 mb-4 font-monot'>Tokenomics</a>
+          <a href="/" className=' text-xl font-medium lh-1_9 font-monot'>Wallet development</a>
           </div>
 
        
         </div>
         <div className=' flex justify-around mt-4 sm:mt-[8rem] items-center flex-col sm:flex-row'>
-          <p className=' text-base font-medium'>All Rights Reserved 2022</p>
+          <p className=' text-base font-medium font-monot'>All Rights Reserved 2022</p>
           <img src="images/audit.png" alt="" />
 
         </div>

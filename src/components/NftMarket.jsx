@@ -14,7 +14,7 @@ function NftMarket() {
               </span>
               <div className="flex gap-4 mt-5 mb-3">
                 <img src="images/strok.png" alt="" className="h-[80px] sm:h-auto" />
-                <h3 className="text-[#E476B2] text-2xl sm:text-6xl font-semibold lh-1_2">
+                <h3 className="text-[#E476B2] text-2xl sm:text-6xl font-semibold lh-1_2 font-monot">
                   NFT <br />
                   Marketplace
                 </h3>
