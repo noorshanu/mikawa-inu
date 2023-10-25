@@ -2,7 +2,7 @@ import React from "react";
 
 function Ecosystem() {
   return (
-    <section className="pt-10 relative" >
+    <section className="pt-10 relative sm:mt-20" >
       <img src="images/circle.png" alt="" className=" absolute hidden sm:block left-[10%] opacity-40" />
 
       <div className="container-wrapper">
