@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaTelegramPlane } from 'react-icons/fa'
+import {BsInstagram, BsTwitter} from 'react-icons/bs'
 
 function Footer() {
   return (
@@ -9,6 +11,17 @@ function Footer() {
       <img src="images/foot-logo.png" alt="" className='h-[130px] hidden sm:block anime2' />
     </div>
     <div className=' relative'>
+      <div className=' absolute top-[7%] sm:top-[50%] left-[40%] sm:left-[4%]'>
+        <div className=' flex flex-row sm:flex-col gap-5'>
+          <a href="/"> <FaTelegramPlane className=' text-2xl'/></a>
+          <a href="/"> <BsTwitter className=' text-2xl'/></a>
+          <a href="/"><BsInstagram className=' text-2xl'/></a>
+          <a href="/">
+            <img src="images/dextool.png" alt="" />
+          </a>
+        </div>
+
+      </div>
       <img src="images/footer.png" alt="" className=' hidden sm:block' />
       <img src="images/mob-foot.png" alt="" className='block sm:hidden' />
       <div className=' absolute top-[17%] sm:top-[15%] w-auto sm:w-[1000px] left-[7%] sm:left-[14%]'>
