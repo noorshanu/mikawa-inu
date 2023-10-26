@@ -3,7 +3,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 
 function Joinus() {
   return (
-    <section>
+    <section className=" overflow-hidden">
       <div className="container-wrapper">
         <div className=" relative">
         <img src="images/join-circle.png" alt=""  className=" absolute -right-[15%] sm:-right-[7%] top-[20%] anime2 "/>
