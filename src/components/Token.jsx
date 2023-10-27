@@ -68,7 +68,7 @@ function Token() {
         </div>
         <div className="flex justify-center  gap-5 mt-7">
           <a
-            href="/"
+            href="https://github.com/Coinsult/solidity/blob/main/Coinsult_Mikawa_Inu_0x83...1235_Audit.pdf"
             className="btn-hero text-center w-[50%] sm:w-auto mx-auto sm:mx-0"
           >
             {" "}
@@ -79,7 +79,7 @@ function Token() {
             />{" "}
           </a>
           <a
-            href="/"
+            href="https://github.com/solidproof/projects/blob/main/2023/Mikawa%20Inu%20/KYC_Certificate_Mikawa_Inu.png"
             className="btn-hero text-center w-[50%] sm:w-auto mx-auto sm:mx-0"
           >
             {" "}
