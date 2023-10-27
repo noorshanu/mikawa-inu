@@ -26,9 +26,9 @@ function Joinus() {
                 purpose <br /> of developing useful products for users.
               </p>
               <div className=" flex gap-5 text-center justify-center mt-8 relative">
-                <FaTelegramPlane className=" text-4xl sm:text-5xl" />
+              
                 <a
-                  href="/"
+                  href="https://linktr.ee/mikawavip" target="_blank"
                   className=" bg-white py-3 text-sm sm:text-2xl text-black font-semibold px-6 rounded-md font-monot"
                 >
                   Join our Community

@@ -61,7 +61,7 @@ function Token() {
             <img
               src="images/audited.png"
               alt=""
-              className="mx-auto h-[30px] sm:h-auto sm:mt-2"
+              className="mx-auto h-[30px] sm:h-auto "
             />{" "}
           </a>
           <a
