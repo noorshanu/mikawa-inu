@@ -50,21 +50,21 @@ function Navbar() {
                 Home
               </a>
             </li>
+      
             <li>
               <a
-                href="https://noodlefi.gitbook.io/docs/"
-                target="_blank"
-                className="text-white  uppercase  font-medium hover:text-pink-500"
-              >
-                Ecosystem
-              </a>
-            </li>
-            <li>
-              <a
-                href="#road"
+                href="https://github.com/Coinsult/solidity/blob/main/Coinsult_Mikawa_Inu_0x83...1235_Audit.pdf" target="_blank"
                 className="text-whiite  uppercase  font-medium hover:text-pink-500"
               >
-                NFT Marketplace
+               Audit
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/solidproof/projects/blob/main/2023/Mikawa%20Inu%20/KYC_Certificate_Mikawa_Inu.png" target="_blank"
+                className="text-white  uppercase  font-medium hover:text-pink-500"
+              >
+                KYC Certficate
               </a>
             </li>
             <li>
@@ -72,15 +72,7 @@ function Navbar() {
                 href="#token"
                 className="text-white  uppercase  font-medium hover:text-pink-500"
               >
-                wallet
-              </a>
-            </li>
-            <li>
-              <a
-                href="#token"
-                className="text-white  uppercase  font-medium hover:text-pink-500"
-              >
-                Tokenomic
+                Pinksale
               </a>
             </li>
             <li>
@@ -93,7 +85,7 @@ function Navbar() {
             </li>{" "}
             <li>
               <a
-                href="#token"
+                href="#road"
                 className="text-white  uppercase  font-medium hover:text-pink-500"
               >
                 Roadmap
@@ -101,20 +93,20 @@ function Navbar() {
             </li>
             <li className="flex items-center gap-4 ">
               <a
-                href="#token"
+                href="https://t.me/mikawainuvip" target="_blank"
                 className="text-white  uppercase  font-medium    hover:text-pink-500 font-monot"
               >
                 <FaTelegram className="text-2xl" />
               </a>
               <a
-                href="#token"
+                href="https://twitter.com/mikawainuvip" target="_blank"
                 className="text-white  uppercase  font-medium    hover:text-pink-500 font-monot"
               >
                 {" "}
                 <BsTwitter className=" text-2xl" />
               </a>
               <a
-                href="#token"
+                href="https://www.instagram.com/mikawainuvip" target="_blank"
                 className="text-white  uppercase  font-medium    hover:text-pink-500 font-monot"
               >
                 <BsInstagram className=" text-2xl" />
@@ -136,8 +128,8 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="https://noodlefi.gitbook.io/docs/"
-                target="_blank"
+                href="https://github.com/Coinsult/solidity/blob/main/Coinsult_Mikawa_Inu_0x83...1235_Audit.pdf" target="_blank"
+               
                 className="text-white  uppercase  font-medium hover:text-pink-500 font-monot"
               >
                 Audit
@@ -145,7 +137,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="#road"
+                href="https://github.com/solidproof/projects/blob/main/2023/Mikawa%20Inu%20/KYC_Certificate_Mikawa_Inu.png" target="_blank"
                 className="text-white  uppercase  font-medium hover:text-pink-500 font-monot"
               >
                 KYC Certificate
@@ -171,7 +163,7 @@ function Navbar() {
 
             <li>
               <a
-                href="#token"
+                href="#road"
                 className="text-white  uppercase  font-medium    hover:text-pink-500 font-monot"
               >
                 Road Map

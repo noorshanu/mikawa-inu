@@ -10,7 +10,7 @@ function Token() {
   };
 
   return (
-    <section className=" mt-[300px] sm:mt-[800px]">
+    <section className=" mt-[300px] sm:mt-[800px]" id="token">
       <div className="container-wrapper">
         <div
           data-aos="fade-down"

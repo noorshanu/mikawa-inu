@@ -8,7 +8,7 @@ import { Autoplay } from 'swiper/modules';
 
 function Roadmap() {
   return (
-   <section className=' py-5'>
+   <section className=' py-5' id='road'>
     <div className='relative hidden sm:block'>
       
         <div className=' absolute -top-[5%] left-[15.4%]'> 
