@@ -1,16 +1,30 @@
 import React, { useRef } from "react";
 import { AiTwotoneCopy } from "react-icons/ai";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Token() {
+
+  const notify = () => {
+    
+
+    toast.success("Copied!", {
+      position: toast.POSITION.TOP_CENTER
+    });
+
+    
+  };
   const textToCopy = "0xc9dbcff0448d330aaf1dd78fc204370e5e54a797";
   const textArea = useRef(null);
   const copyToClipboard = () => {
     textArea.current.select();
     document.execCommand("copy");
+    notify()
   };
 
   return (
     <section className=" mt-[300px] sm:mt-[800px]" id="token">
+      <ToastContainer />
       <div className="container-wrapper">
         <div
           data-aos="fade-down"
