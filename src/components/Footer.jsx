@@ -16,8 +16,8 @@ function Footer() {
           <a href="/"> <FaTelegramPlane className=' text-2xl'/></a>
           <a href="/"> <BsTwitter className=' text-2xl'/></a>
           <a href="/"><BsInstagram className=' text-2xl'/></a>
-          <a href="/">
-            <img src="images/dextool.png" alt="" />
+          <a href="https://bscscan.com/token/0x839339d5aa02bb4628b643432ea3a74628711235" target='_blank'>
+            <img src="images/bsc.svg" alt="" className='h-[26px]' />
           </a>
         </div>
 
@@ -47,7 +47,7 @@ function Footer() {
 
        
         </div>
-        <div className=' flex justify-around mt-4 sm:mt-[8rem] items-center flex-col sm:flex-row'>
+        <div className=' flex justify-around mt-4 sm:mt-[3rem] items-center flex-col sm:flex-row'>
           <p className=' text-base font-medium font-monot'>All Rights Reserved 2022</p>
           <img src="images/audit.png" alt="" />
 
