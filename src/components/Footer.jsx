@@ -16,7 +16,7 @@ function Footer() {
           <a href="/"> <FaTelegramPlane className=' text-2xl'/></a>
           <a href="/"> <BsTwitter className=' text-2xl'/></a>
           <a href="/"><BsInstagram className=' text-2xl'/></a>
-          <a href="https://bscscan.com/token/0x839339d5aa02bb4628b643432ea3a74628711235" target='_blank'>
+          <a href="https://bscscan.com/token/0x725d1918b30a6c073c5cb7108f400f8ebccc8f95" target='_blank'>
             <img src="images/bsc.svg" alt="" className='h-[26px]' />
           </a>
         </div>
