@@ -17,7 +17,7 @@ function Hero() {
               To Analyze Wealth Management Opportunities.
             </p>
             <div className=" flex gap-6 mt-5"> 
-              <a href="/" className="btn-hero flex items-center gap-3"><img src="images/pinklogo.jpg" className="h-[26px]" alt="" /> Buy Now</a>
+              <a href="https://www.pinksale.finance/launchpad/0x54A2B435Eddb14f505C8c7D65Cd45FB9fF520655?chain=BSC&refId=0x1329bC366a13df5c4D6005a9b7856591203fD162" target="_blank" className="btn-hero flex items-center gap-3"><img src="images/pinklogo.jpg" className="h-[26px]" alt="" /> Buy Now</a>
               <a href="https://drive.google.com/file/d/1EDeTc18jcjU2WgalHQ_SqPUSD5R18dSU/view" target="_blank" className="btn-hero px-7">Whitepaper</a>
             </div>
           </div>
