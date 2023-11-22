@@ -53,7 +53,7 @@ function Navbar() {
       
             <li>
               <a
-                href="https://github.com/Coinsult/solidity/blob/main/Coinsult_Mikawa_Inu_0x83...1235_Audit.pdf" target="_blank"
+                   href="https://coinsult.net/projects/mikawa/" target="_blank"
                 className="text-whiite  uppercase  font-medium hover:text-pink-500"
               >
                Audit
@@ -61,7 +61,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="https://github.com/solidproof/projects/blob/main/2023/Mikawa%20Inu%20/KYC_Certificate_Mikawa_Inu.png" target="_blank"
+                href="https://github.com/solidproof/projects/blob/main/2023/Mikawa%20/KYC_Certificate_Mikawa.png" target="_blank"
                 className="text-white  uppercase  font-medium hover:text-pink-500"
               >
                 KYC Certficate
@@ -69,7 +69,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="#token"
+              href="https://www.pinksale.finance/launchpad/0x54A2B435Eddb14f505C8c7D65Cd45FB9fF520655?chain=BSC&refId=0x1329bC366a13df5c4D6005a9b7856591203fD162" target="_blank"
                 className="text-white  uppercase  font-medium hover:text-pink-500"
               >
                 Pinksale
@@ -128,7 +128,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="https://github.com/Coinsult/solidity/blob/main/Coinsult_Mikawa_Inu_0x83...1235_Audit.pdf" target="_blank"
+                href="https://coinsult.net/projects/mikawa/" target="_blank"
                
                 className="text-white  uppercase  font-medium hover:text-pink-500 font-monot"
               >
@@ -137,7 +137,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="https://github.com/solidproof/projects/blob/main/2023/Mikawa%20Inu%20/KYC_Certificate_Mikawa_Inu.png" target="_blank"
+                href="https://github.com/solidproof/projects/blob/main/2023/Mikawa%20/KYC_Certificate_Mikawa.png" target="_blank"
                 className="text-white  uppercase  font-medium hover:text-pink-500 font-monot"
               >
                 KYC Certificate
@@ -145,7 +145,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="#token"
+                href="https://www.pinksale.finance/launchpad/0x54A2B435Eddb14f505C8c7D65Cd45FB9fF520655?chain=BSC&refId=0x1329bC366a13df5c4D6005a9b7856591203fD162" target="_blank"
                 className="text-white  uppercase  font-medium    hover:text-pink-500 font-monot"
               >
                 Pinksale
