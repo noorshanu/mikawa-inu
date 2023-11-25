@@ -14,7 +14,7 @@ function Token() {
 
     
   };
-  const textToCopy = "0xc9dbcff0448d330aaf1dd78fc204370e5e54a797";
+  const textToCopy = "0x725d1918b30a6c073c5cb7108f400f8ebccc8f95";
   const textArea = useRef(null);
   const copyToClipboard = () => {
     textArea.current.select();
